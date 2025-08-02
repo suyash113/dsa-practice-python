@@ -123,10 +123,3 @@ l1.append(30)
 print(l1)
 print(l1.delete_by_index(3))
 print(l1)
-
-
-
-https://github.com/suyash113/dsa-practice-python.git
-
-
-https://github.com/suyash113/dsa-practice-python.git 

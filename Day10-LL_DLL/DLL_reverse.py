@@ -40,7 +40,7 @@ class DoublyLinkedList:
         current = self.head
         while current:
             current.next, current.prev = current.prev, current.next
-            current = current.next
+            current = current.prev
         self.head, self.tail = self.tail, self.head
         return True
     
@@ -142,10 +142,10 @@ l1.append(11)
 l1.append(15)
 l1.append(20)
 print(l1)
-# print(l1.reverse())
+print(l1.reverse())
 # print(l1.palindrome())
 # print(l1.remove_duplicates())
-# print(l1)
+print(l1)
 # print(l1.two_sum(9))
-print(l1.rotate_by_k(2))
+# print(l1.rotate_by_k(2))
 print(l1)
