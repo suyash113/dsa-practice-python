@@ -22,6 +22,5 @@ def longest_repeated_subsequence(s):
             j -= 1
     return "".join(reversed(lrs)), dp[n][n]
 
-# Test
 s = "ATAKTKGGA" #"aaabbbcccdddeeffgg"aaabbbcccdddeeffgg aabbccddg
 print("Longest Repeated Subsequence:", longest_repeated_subsequence(s))
