@@ -7,4 +7,4 @@ class Solution:
             else:
                 return False
         return True
-print(Solution().isSorted([1, 2, 1, 4, 5]))
+print(Solution().isSorted([3,4,5,1,2]))
